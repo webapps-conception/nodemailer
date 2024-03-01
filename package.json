@@ -1,0 +1,17 @@
+{
+  "name": "nodemailer",
+  "version": "0.0.1",
+  "description": "Nodemailer is a module for Node.js applications to allow easy as cake email sending.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node src/mail.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.11"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
